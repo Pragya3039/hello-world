@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void helllo(string world){
+    cout<< world;
+}
+
 int main(){
     cout<<"hello world";
+helllo("hi");
 }
