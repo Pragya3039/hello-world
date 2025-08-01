@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-void helllo(string world){
-    cout<< world;
-}
+#include<stdio.h>
+#include<stdlib.h>
 
 int main(){
-    cout<<"hello world";
-helllo("hi");
+int a,b;
+printf("Enter first integer");
+scanf("%d",&a);
+printf("Enter second integer");
+scanf("%d",&b);
+printf("The sum is : %d",a+b);
+return 0;
 }
